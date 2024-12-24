@@ -29,6 +29,7 @@ namespace NSVTestFramework.StressTesting
             if (_myThread != null)
                 return;
 
+            _stopMouseMover = false;
             _myThread = new Thread(new ThreadStart(RandomMove));
             _myThread.Start();
         }
