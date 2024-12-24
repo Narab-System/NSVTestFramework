@@ -1,0 +1,14 @@
+*.suo
+*.user
+*.ncb
+Debug/
+Release/
+CodeAnalyst/
+ipch/
+*.sdf
+*.opensdf
+*.bak
+*.dwl
+*.vsidx
+*.cache
+*.json
